@@ -26,6 +26,11 @@ formE1.onsubmit = function(e) {
 function renderWeather(weatherObj) {
     //clear previous 
     weatherE1.innerHTML = ""
+    //not found
+    if (weatherObj.Response ==='False') {
+        weatherE1.textContent = "Location not found"
+        return
+    }
     //weather description
     weatherObj.weather.forEach(function(weather) {
         var weather_descrip = document.createElement('h2')

@@ -1,4 +1,4 @@
-/* {
+* {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -6,4 +6,19 @@
 
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
+}
+
+body {
+	background-image: linear-gradient(to right, #473cde, #cbcfeb);
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+}
+
+h2{
+	padding: 15px;
+}
+
+form {
+	padding: 19px;
 }
