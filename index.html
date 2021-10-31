@@ -10,11 +10,15 @@
 </head>
 
 <body>
+    <header>
+        <h1>Current Weather</h1>
+    </header>
     <main class="container">
         <div id="weather"></div>
         <form>
-            <input type="text" placeholder="search for city" />
-            <button>Submit</button>
+            <input name="search" id="weather-search" type="text" placeholder="Enter location" />
+            <label for="weather-search"></label>
+            <button>Search</button>
         </form>
     </main>
     <script src="index.js"></script>
